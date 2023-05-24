@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "engines": {
+  "node": ">=18"  },
   "scripts": {
     "test": "vitest",
     "dev": "ts-node-dev -T src/server.ts",
@@ -29,6 +31,7 @@
     "dotenv": "^16.0.3",
     "fastify": "^4.17.0",
     "knex": "^2.4.2",
+    "pg": "^8.11.0",
     "sqlite3": "^5.1.6",
     "zod": "^3.21.4"
   }
